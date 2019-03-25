@@ -1,0 +1,4 @@
+# In environments where you have restricted install previleges to pandas 
+file_first = open("text1.txt", "r")
+list_lines = file_first.read().splitlines()
+print(list_lines)   # Gives a list
