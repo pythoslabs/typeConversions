@@ -1,0 +1,3 @@
+#train = a dataframe  , lbl = a column in the dataframe 
+array_lbl = train.lbl.unique() # unique() function in pandas returns an array
+list_lbl = list(array_lbl)  # This converts the array into a list
